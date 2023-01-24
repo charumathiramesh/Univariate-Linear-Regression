@@ -37,12 +37,9 @@ b = ymean - m*xmean
 print(m,b)
 ypred = m*x+b
 print(ypred)
-
-
 plt.scatter(x,y,color='Red')
 plt.plot(x,ypred,color='Blue')
 plt.show()
-
 ```
 ## Output
 ![p1 1](https://user-images.githubusercontent.com/120204455/214368213-01640146-9790-4aa6-991f-1fc731321cfe.png)
